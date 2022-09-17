@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.wicked"><![CDATA[Pranger]]></item>
+		<item name="wcf.acp.group.option.user.wicked.avatar.canView"><![CDATA[Kann Benutzer mit gesperrtem Avatar sehen]]></item>
+		<item name="wcf.acp.group.option.user.wicked.ban.canView"><![CDATA[Kann gesperrte Benutzer sehen]]></item>
+		<item name="wcf.acp.group.option.user.wicked.coverPhoto.canView"><![CDATA[Kann Benutzer mit gesperrtem Titelbild sehen]]></item>
+		<item name="wcf.acp.group.option.user.wicked.deletion.canView"><![CDATA[Kann Kontolöschungen sehen]]></item>
+		<item name="wcf.acp.group.option.user.wicked.disable.canView"><![CDATA[Kann daktivierte Benutzer sehen]]></item>
+		<item name="wcf.acp.group.option.user.wicked.signature.canView"><![CDATA[Kann Benutzer mit gesperrter Signatur sehen]]></item>
+		<item name="wcf.acp.group.option.user.wicked.suspension.canView"><![CDATA[Kann sanktionierte Benutzer sehen]]></item>
+		<item name="wcf.acp.group.option.user.wicked.warning.canView"><![CDATA[Kann verwarnte Benutzer sehen]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_wicked"><![CDATA[Pranger]]></item>
+	</category>
+	
+	<category name="wcf.wicked">
+		<item name="wcf.wicked.avatars"><![CDATA[Benutzer mit gesperrtem Avatar]]></item>
+		<item name="wcf.wicked.bans"><![CDATA[Gesperrte Benutzer]]></item>
+		<item name="wcf.wicked.blacklist"><![CDATA[Stop Forum Spam]]></item>
+		<item name="wcf.wicked.coverPhotos"><![CDATA[Benutzer mit gesperrtem Titelbild]]></item>
+		<item name="wcf.wicked.deletions"><![CDATA[Konto-Löschungen]]></item>
+		<item name="wcf.wicked.details"><![CDATA[Pranger]]></item>
+		<item name="wcf.wicked.disables"><![CDATA[Deaktivierte Benutzer]]></item>
+		<item name="wcf.wicked.expires"><![CDATA[Ablauf]]></item>
+		<item name="wcf.wicked.expires.no"><![CDATA[nie]]></item>
+		<item name="wcf.wicked.judgeID"><![CDATA[Verwarnt von]]></item>
+		<item name="wcf.wicked.lastActivityTime"><![CDATA[Letzte Aktivität]]></item>
+		<item name="wcf.wicked.overview"><![CDATA[Übersicht]]></item>
+		<item name="wcf.wicked.quitStarted"><![CDATA[Löschung]]></item>
+		<item name="wcf.wicked.reason"><![CDATA[Grund]]></item>
+		<item name="wcf.wicked.reason.no"><![CDATA[kein Grund]]></item>
+		<item name="wcf.wicked.registrationDate"><![CDATA[Registrierung]]></item>
+		<item name="wcf.wicked.sanction"><![CDATA[Sanktion]]></item>
+		<item name="wcf.wicked.signatures"><![CDATA[Benutzer mit gesperrter Signatur]]></item>
+		<item name="wcf.wicked.suspensions"><![CDATA[Sanktionierte Benutzer]]></item>
+		<item name="wcf.wicked.time"><![CDATA[Datum]]></item>
+		<item name="wcf.wicked.time.no"><![CDATA[kein]]></item>
+		<item name="wcf.wicked.title"><![CDATA[Titel]]></item>
+		<item name="wcf.wicked.user.none"><![CDATA[Keine Benutzer]]></item>
+		<item name="wcf.wicked.warnings"><![CDATA[Verwarnte Benutzer]]></item>
+	</category>
+</language>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/page.xsd">
+	<import>
+		<page identifier="com.uz.wcf.wicked.Wicked">
+			<pageType>system</pageType>
+			<controller>wcf\page\WickedPage</controller>
+			<handler>wcf\system\page\handler\WickedPageHandler</handler>
+			<name language="de">Pranger</name>
+			<name language="en">Pillory</name>
+			<permissions>user.wicked.avatar.canView,user.wicked.ban.canView,user.wicked.signature.canView,user.wicked.deletion.canView,user.wicked.warning.canView,user.wicked.suspension.canView</permissions>
+			<options>module_wicked</options>
+			
+			<content language="en">
+				<title>Pillory</title>
+			</content>
+			<content language="de">
+				<title>Pranger</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.wcf.wicked.Avatar">
+			<pageType>system</pageType>
+			<controller>wcf\page\WickedAvatarPage</controller>
+			<handler>wcf\system\page\handler\WickedAvatarPageHandler</handler>
+			<name language="de">Benutzer mit gesperrtem Avatar</name>
+			<name language="en">Users with banned Avatar</name>
+			<hasFixedParent>1</hasFixedParent>
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<permissions>user.wicked.avatar.canView</permissions>
+			<options>module_wicked</options>
+			
+			<content language="en">
+				<title>Users with banned Avatar</title>
+			</content>
+			<content language="de">
+				<title>Benutzer mit gesperrtem Avatar</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.wcf.wicked.CoverPhoto">
+			<pageType>system</pageType>
+			<controller>wcf\page\WickedCoverPhotoPage</controller>
+			<handler>wcf\system\page\handler\WickedCoverPhotoPageHandler</handler>
+			<name language="de">Benutzer mit gesperrtem Titelbild</name>
+			<name language="en">Users with banned cover photo</name>
+			<hasFixedParent>1</hasFixedParent>
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<permissions>user.wicked.avatar.canView</permissions>
+			<options>module_wicked</options>
+			
+			<content language="en">
+				<title>Users with banned cover photo</title>
+			</content>
+			<content language="de">
+				<title>Benutzer mit gesperrtem Titelbild</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.wcf.wicked.Signature">
+			<pageType>system</pageType>
+			<controller>wcf\page\WickedSignaturePage</controller>
+			<handler>wcf\system\page\handler\WickedSignaturePageHandler</handler>
+			<name language="de">Benutzer mit gesperrter Signatur</name>
+			<name language="en">Users with banned Signature</name>
+			<hasFixedParent>1</hasFixedParent>
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<permissions>user.wicked.signature.canView</permissions>
+			<options>module_wicked</options>
+			
+			<content language="en">
+				<title>Users with banned Signature</title>
+			</content>
+			<content language="de">
+				<title>Benutzer mit gesperrter Signatur</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.wcf.wicked.Disable">
+			<pageType>system</pageType>
+			<controller>wcf\page\WickedDisablePage</controller>
+			<handler>wcf\system\page\handler\WickedDisablePageHandler</handler>
+			<name language="de">Deaktivierte Benutzer</name>
+			<name language="en">Deactivated Users</name>
+			<hasFixedParent>1</hasFixedParent>
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<permissions>user.wicked.disable.canView</permissions>
+			<options>module_wicked</options>
+			
+			<content language="en">
+				<title>Deactivated Users</title>
+			</content>
+			<content language="de">
+				<title>Deaktivierte Benutzer</title>
+			</content>
+		</page>
+		<page identifier="com.uz.wcf.wicked.Ban">
+			<pageType>system</pageType>
+			<controller>wcf\page\WickedBanPage</controller>
+			<handler>wcf\system\page\handler\WickedBanPageHandler</handler>
+			<name language="de">Gesperrte Benutzer</name>
+			<name language="en">Banned Users</name>
+			<hasFixedParent>1</hasFixedParent>
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<permissions>user.wicked.ban.canView</permissions>
+			<options>module_wicked</options>
+			
+			<content language="en">
+				<title>Banned Users</title>
+			</content>
+			<content language="de">
+				<title>Gesperrte Benutzer</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.wcf.wicked.Deletion">
+			<pageType>system</pageType>
+			<controller>wcf\page\WickedDeletionPage</controller>
+			<handler>wcf\system\page\handler\WickedDeletionPageHandler</handler>
+			<name language="de">Konto-Löschungen</name>
+			<name language="en">Account Deletions</name>
+			<hasFixedParent>1</hasFixedParent>
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<permissions>user.wicked.deletion.canView</permissions>
+			<options>module_wicked</options>
+			
+			<content language="en">
+				<title>Account Deletions</title>
+			</content>
+			<content language="de">
+				<title>Konto-Löschungen</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.wcf.wicked.Suspension">
+			<pageType>system</pageType>
+			<controller>wcf\page\WickedSuspensionPage</controller>
+			<handler>wcf\system\page\handler\WickedSuspensionPageHandler</handler>
+			<name language="de">Sanktionierte Benutzer</name>
+			<name language="en">Sanctioned Users</name>
+			<hasFixedParent>1</hasFixedParent>
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<permissions>user.wicked.suspension.canView</permissions>
+			<options>module_wicked</options>
+			
+			<content language="en">
+				<title>Sanctioned Users</title>
+			</content>
+			<content language="de">
+				<title>Sanktionierte Benutzer</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.wcf.wicked.Warning">
+			<pageType>system</pageType>
+			<controller>wcf\page\WickedWarningPage</controller>
+			<handler>wcf\system\page\handler\WickedWarningPageHandler</handler>
+			<name language="de">Verwarnte Benutzer</name>
+			<name language="en">Warned Users</name>
+			<hasFixedParent>1</hasFixedParent>
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<permissions>user.wicked.warning.canView</permissions>
+			<options>module_wicked</options>
+			
+			<content language="en">
+				<title>Warned Users</title>
+			</content>
+			<content language="de">
+				<title>Verwarnte Benutzer</title>
+			</content>
+		</page>
+	</import>
+</data>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/userGroupOption.xsd">
+	<import>
+		<categories>
+			<category name="user.wicked">
+				<parent>user</parent>
+			</category>
+		</categories>
+		
+		<options>
+			<option name="user.wicked.avatar.canView">
+				<categoryname>user.wicked</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<userdefaultvalue>0</userdefaultvalue>
+				<moddefaultvalue>1</moddefaultvalue>
+				<admindefaultvalue>1</admindefaultvalue>
+			</option>
+			
+			<option name="user.wicked.coverPhoto.canView">
+				<categoryname>user.wicked</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<userdefaultvalue>0</userdefaultvalue>
+				<moddefaultvalue>1</moddefaultvalue>
+				<admindefaultvalue>1</admindefaultvalue>
+			</option>
+			
+			<option name="user.wicked.signature.canView">
+				<categoryname>user.wicked</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<userdefaultvalue>0</userdefaultvalue>
+				<moddefaultvalue>1</moddefaultvalue>
+				<admindefaultvalue>1</admindefaultvalue>
+			</option>
+			
+			<option name="user.wicked.ban.canView">
+				<categoryname>user.wicked</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<userdefaultvalue>0</userdefaultvalue>
+				<moddefaultvalue>1</moddefaultvalue>
+				<admindefaultvalue>1</admindefaultvalue>
+			</option>
+			
+			<option name="user.wicked.disable.canView">
+				<categoryname>user.wicked</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<userdefaultvalue>0</userdefaultvalue>
+				<moddefaultvalue>1</moddefaultvalue>
+				<admindefaultvalue>1</admindefaultvalue>
+			</option>
+			
+			<option name="user.wicked.deletion.canView">
+				<categoryname>user.wicked</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<userdefaultvalue>0</userdefaultvalue>
+				<moddefaultvalue>1</moddefaultvalue>
+				<admindefaultvalue>1</admindefaultvalue>
+			</option>
+			
+			<option name="user.wicked.warning.canView">
+				<categoryname>user.wicked</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<userdefaultvalue>0</userdefaultvalue>
+				<moddefaultvalue>1</moddefaultvalue>
+				<admindefaultvalue>1</admindefaultvalue>
+			</option>
+			
+			<option name="user.wicked.suspension.canView">
+				<categoryname>user.wicked</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<userdefaultvalue>0</userdefaultvalue>
+				<moddefaultvalue>1</moddefaultvalue>
+				<admindefaultvalue>1</admindefaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

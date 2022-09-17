@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/menuItem.xsd">
+	<import>
+		<item identifier="com.uz.wcf.wicked.Wicked">
+			<menu>com.woltlab.wcf.MainMenu</menu>
+			<title language="de">Pranger</title>
+			<title language="en">Pillory</title>
+			<page>com.uz.wcf.wicked.Wicked</page>
+		</item>
+		<item identifier="com.uz.wcf.wicked.Avatar">
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<title language="de">Benutzer mit gesperrtem Avatar</title>
+			<title language="en">Users with banned Avatar</title>
+			<page>com.uz.wcf.wicked.Avatar</page>
+		</item>
+		<item identifier="com.uz.wcf.wicked.CoverPhoto">
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<title language="de">Benutzer mit gesperrtem Titelbild</title>
+			<title language="en">Users with banned cover photo</title>
+			<page>com.uz.wcf.wicked.CoverPhoto</page>
+		</item>
+		<item identifier="com.uz.wcf.wicked.Signature">
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<title language="de">Benutzer mit gesperrter Signatur</title>
+			<title language="en">Users with banned Signature</title>
+			<page>com.uz.wcf.wicked.Signature</page>
+		</item>
+		<item identifier="com.uz.wcf.wicked.Disable">
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<title language="de">Deaktivierte Benutzer</title>
+			<title language="en">Deactivated Users</title>
+			<page>com.uz.wcf.wicked.Disable</page>
+		</item>
+		<item identifier="com.uz.wcf.wicked.Ban">
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<title language="de">Gesperrte Benutzer</title>
+			<title language="en">Banned Users</title>
+			<page>com.uz.wcf.wicked.Ban</page>
+		</item>
+		<item identifier="com.uz.wcf.wicked.Deletion">
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<title language="de">Konto-Löschungen</title>
+			<title language="en">Account Deletions</title>
+			<page>com.uz.wcf.wicked.Deletion</page>
+		</item>
+		
+		<item identifier="com.uz.wcf.wicked.Suspension">
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<title language="de">Sanktionierte Benutzer</title>
+			<title language="en">Sanctioned Users</title>
+			<page>com.uz.wcf.wicked.Suspension</page>
+		</item>
+		
+		<item identifier="com.uz.wcf.wicked.Warning">
+			<parent>com.uz.wcf.wicked.Wicked</parent>
+			<title language="de">Verwarnte Benutzer</title>
+			<title language="en">Warned Users</title>
+			<page>com.uz.wcf.wicked.Warning</page>
+		</item>
+	</import>
+</data>

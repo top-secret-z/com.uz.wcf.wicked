@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
+	<import>
+		<!--  User action -->
+		<eventlistener name="wickedUserActionAdmin">
+			<eventclassname>wcf\data\user\UserAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<environment>admin</environment>
+			<listenerclassname>wcf\system\event\listener\WickedUserActionListener</listenerclassname>
+		</eventlistener>
+		<eventlistener name="wickedUserActionUser">
+			<eventclassname>wcf\data\user\UserAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<environment>user</environment>
+			<listenerclassname>wcf\system\event\listener\WickedUserActionListener</listenerclassname>
+		</eventlistener>
+		
+		<!-- Warning -->
+		<eventlistener name="wickedUserWarningActionUser">
+			<eventclassname>wcf\data\user\infraction\warning\UserInfractionWarningAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<environment>user</environment>
+			<listenerclassname>wcf\system\event\listener\WickedUserWarningListener</listenerclassname>
+		</eventlistener>
+		<eventlistener name="wickedUserWarningActionAdmin">
+			<eventclassname>wcf\data\user\infraction\warning\UserInfractionWarningAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<environment>admin</environment>
+			<listenerclassname>wcf\system\event\listener\WickedUserWarningListener</listenerclassname>
+		</eventlistener>
+		
+		<!-- Suspension -->
+		<eventlistener name="wickedUserSuspensionActionUser">
+			<eventclassname>wcf\data\user\infraction\suspension\UserInfractionSuspensionAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<environment>user</environment>
+			<listenerclassname>wcf\system\event\listener\WickedUserSuspensionListener</listenerclassname>
+		</eventlistener>
+		<eventlistener name="wickedUserSuspensionActionAdmin">
+			<eventclassname>wcf\data\user\infraction\suspension\UserInfractionSuspensionAction</eventclassname>
+			<eventname>finalizeAction</eventname>
+			<environment>admin</environment>
+			<listenerclassname>wcf\system\event\listener\WickedUserSuspensionListener</listenerclassname>
+		</eventlistener>
+	</import>
+	
+<delete>
+	<eventlistener name="wickedUserWarningAction">
+		<eventclassname>wcf\data\user\infraction\warning\UserInfractionWarningAction</eventclassname>
+		<eventname>finalizeAction</eventname>
+		<environment>admin</environment>
+		<listenerclassname>wcf\system\event\listener\WickedUserWarningListener</listenerclassname>
+	</eventlistener>
+	<eventlistener name="wickedUserSuspensionAction">
+		<eventclassname>wcf\data\user\infraction\suspension\UserInfractionSuspensionAction</eventclassname>
+		<eventname>finalizeAction</eventname>
+		<environment>admin</environment>
+		<listenerclassname>wcf\system\event\listener\WickedUserSuspensionListener</listenerclassname>
+	</eventlistener>
+</delete>
+</data>
