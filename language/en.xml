@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en" languagename="English" countrycode="gb">
-	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.category.user.wicked"><![CDATA[Pillory]]></item>
-		<item name="wcf.acp.group.option.user.wicked.avatar.canView"><![CDATA[Can view users with banned avatar]]></item>
-		<item name="wcf.acp.group.option.user.wicked.ban.canView"><![CDATA[Can view banned users]]></item>
-		<item name="wcf.acp.group.option.user.wicked.coverPhoto.canView"><![CDATA[Can view users with banned cover photo]]></item>
-		<item name="wcf.acp.group.option.user.wicked.deletion.canView"><![CDATA[Can view account deletions]]></item>
-		<item name="wcf.acp.group.option.user.wicked.disable.canView"><![CDATA[Can view deactivated users]]></item>
-		<item name="wcf.acp.group.option.user.wicked.signature.canView"><![CDATA[Can view users with banned signature]]></item>
-		<item name="wcf.acp.group.option.user.wicked.suspension.canView"><![CDATA[Can view sanctioned users]]></item>
-		<item name="wcf.acp.group.option.user.wicked.warning.canView"><![CDATA[Can view warned users]]></item>
-	</category>
-	
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.module_wicked"><![CDATA[Pillory]]></item>
-	</category>
-	
-	<category name="wcf.wicked">
-		<item name="wcf.wicked.avatars"><![CDATA[Users with banned Avatar]]></item>
-		<item name="wcf.wicked.bans"><![CDATA[Banned Users]]></item>
-		<item name="wcf.wicked.blacklist"><![CDATA[Stop Forum Spam]]></item>
-		<item name="wcf.wicked.coverPhotos"><![CDATA[Users with banned cover photo]]></item>
-		<item name="wcf.wicked.deletions"><![CDATA[Account Deletions]]></item>
-		<item name="wcf.wicked.details"><![CDATA[Pillory]]></item>
-		<item name="wcf.wicked.disables"><![CDATA[Deactivated Users]]></item>
-		<item name="wcf.wicked.expires"><![CDATA[Expiry]]></item>
-		<item name="wcf.wicked.expires.no"><![CDATA[never]]></item>
-		<item name="wcf.wicked.judgeID"><![CDATA[Warned by]]></item>
-		<item name="wcf.wicked.lastActivityTime"><![CDATA[Last Activity]]></item>
-		<item name="wcf.wicked.overview"><![CDATA[Overview]]></item>
-		<item name="wcf.wicked.quitStarted"><![CDATA[Deletion]]></item>
-		<item name="wcf.wicked.reason"><![CDATA[Reason]]></item>
-		<item name="wcf.wicked.reason.no"><![CDATA[no reason]]></item>
-		<item name="wcf.wicked.registrationDate"><![CDATA[Registration]]></item>
-		<item name="wcf.wicked.sanction"><![CDATA[Sanction]]></item>
-		<item name="wcf.wicked.signatures"><![CDATA[Users with banned Signature]]></item>
-		<item name="wcf.wicked.suspensions"><![CDATA[Sanctioned Users]]></item>
-		<item name="wcf.wicked.time"><![CDATA[Date]]></item>
-		<item name="wcf.wicked.time.no"><![CDATA[none]]></item>
-		<item name="wcf.wicked.title"><![CDATA[Title]]></item>
-		<item name="wcf.wicked.user.none"><![CDATA[No users]]></item>
-		<item name="wcf.wicked.warnings"><![CDATA[Warned Users]]></item>
-	</category>
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.category.user.wicked"><![CDATA[Pillory]]></item>
+        <item name="wcf.acp.group.option.user.wicked.avatar.canView"><![CDATA[Can view users with banned avatar]]></item>
+        <item name="wcf.acp.group.option.user.wicked.ban.canView"><![CDATA[Can view banned users]]></item>
+        <item name="wcf.acp.group.option.user.wicked.coverPhoto.canView"><![CDATA[Can view users with banned cover photo]]></item>
+        <item name="wcf.acp.group.option.user.wicked.deletion.canView"><![CDATA[Can view account deletions]]></item>
+        <item name="wcf.acp.group.option.user.wicked.disable.canView"><![CDATA[Can view deactivated users]]></item>
+        <item name="wcf.acp.group.option.user.wicked.signature.canView"><![CDATA[Can view users with banned signature]]></item>
+        <item name="wcf.acp.group.option.user.wicked.suspension.canView"><![CDATA[Can view sanctioned users]]></item>
+        <item name="wcf.acp.group.option.user.wicked.warning.canView"><![CDATA[Can view warned users]]></item>
+    </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.module_wicked"><![CDATA[Pillory]]></item>
+    </category>
+
+    <category name="wcf.wicked">
+        <item name="wcf.wicked.avatars"><![CDATA[Users with banned Avatar]]></item>
+        <item name="wcf.wicked.bans"><![CDATA[Banned Users]]></item>
+        <item name="wcf.wicked.blacklist"><![CDATA[Stop Forum Spam]]></item>
+        <item name="wcf.wicked.coverPhotos"><![CDATA[Users with banned cover photo]]></item>
+        <item name="wcf.wicked.deletions"><![CDATA[Account Deletions]]></item>
+        <item name="wcf.wicked.details"><![CDATA[Pillory]]></item>
+        <item name="wcf.wicked.disables"><![CDATA[Deactivated Users]]></item>
+        <item name="wcf.wicked.expires"><![CDATA[Expiry]]></item>
+        <item name="wcf.wicked.expires.no"><![CDATA[never]]></item>
+        <item name="wcf.wicked.judgeID"><![CDATA[Warned by]]></item>
+        <item name="wcf.wicked.lastActivityTime"><![CDATA[Last Activity]]></item>
+        <item name="wcf.wicked.overview"><![CDATA[Overview]]></item>
+        <item name="wcf.wicked.quitStarted"><![CDATA[Deletion]]></item>
+        <item name="wcf.wicked.reason"><![CDATA[Reason]]></item>
+        <item name="wcf.wicked.reason.no"><![CDATA[no reason]]></item>
+        <item name="wcf.wicked.registrationDate"><![CDATA[Registration]]></item>
+        <item name="wcf.wicked.sanction"><![CDATA[Sanction]]></item>
+        <item name="wcf.wicked.signatures"><![CDATA[Users with banned Signature]]></item>
+        <item name="wcf.wicked.suspensions"><![CDATA[Sanctioned Users]]></item>
+        <item name="wcf.wicked.time"><![CDATA[Date]]></item>
+        <item name="wcf.wicked.time.no"><![CDATA[none]]></item>
+        <item name="wcf.wicked.title"><![CDATA[Title]]></item>
+        <item name="wcf.wicked.user.none"><![CDATA[No users]]></item>
+        <item name="wcf.wicked.warnings"><![CDATA[Warned Users]]></item>
+    </category>
 </language>
